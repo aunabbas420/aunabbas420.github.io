@@ -397,20 +397,80 @@ flex-direction: column;
     
     }
 
-    @media (max-width: 769px) {
+    @media (max-width: 768px) {
 
 
         .skill-context{
+        
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            right: 0px;
+padding: 10px;
         }
+        .progress-container{
+            width: 0% !important;
+        }
+        .courses-container{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 20px;
+width: 400px;
+    height: 250px;        }
+       
+        h6{
+            visibility: hidden;
+        }
+        .edu-detail{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 30px;
         
         }
         
-.courses-container {
-}
+        .skillleft{
+            width: 100%;
+            
+            }
+            .skillright{
+                width: 100%;
+                
+                }
+                .skill-context{
+                    width: 100%;
+                    height: fit-content;
+                    margin-top: 50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                
+                }
+        .bachelor{
+
+
+            width: 100%;    
+           height: 100%;
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+        }
+        .intermediate{
+
+
+            width: 100%;    
+           height: 100%;
+        display : flex;
+        justify-content: center;
+        flex-direction: column;
+        }
+        }
+        
+
 
 .course {
 	background-color: #fff;
@@ -429,12 +489,10 @@ flex-direction: column;
 .course h6 {
 	opacity: 0.6;
 	margin: 0;
-	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
 .course h2 {
-	letter-spacing: 1px;
 	margin: 10px 0;
 }
 
@@ -469,6 +527,7 @@ flex-direction: column;
 	right: 30px;
 	text-align: right;
 	width:250px;
+
 }
 
 .progress {
@@ -476,6 +535,7 @@ flex-direction: column;
 	border-radius: 3px;
 	height: 20px;
 	width: 100%;
+    
 }
 
 .progress::after {
@@ -492,7 +552,6 @@ flex-direction: column;
 .progress-text {
 	font-size: 10px;
 	opacity: 0.6;
-	letter-spacing: 1px;
 }
 
 .fab{
@@ -510,4 +569,7 @@ flex-direction: column;
 .p4::after{
     width: 80% !important;
 
+}
+.per{
+    font-size: 15px;
 }
