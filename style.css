@@ -417,6 +417,9 @@ flex-direction: column;
     text-align: center;
     margin-top: 50px;
 }
+.pic{
+    visibility: hidden;
+width: 0px;}
         .skill-context{
         
             display: flex;
