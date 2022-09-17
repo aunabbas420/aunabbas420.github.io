@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 html {
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
   }
 *{box-sizing: border-box;
     text-decoration: none;
 
 }
-
-  
 
 
 .main{
@@ -399,6 +397,18 @@ flex-direction: column;
     
     }
 
+    @media (max-width: 769px) {
+
+
+        .skill-context{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        }
+        
 .courses-container {
 }
 
