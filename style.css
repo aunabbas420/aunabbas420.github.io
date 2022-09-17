@@ -399,7 +399,24 @@ flex-direction: column;
 
     @media (max-width: 768px) {
 
-
+.top{
+    visibility: hidden;
+}
+.secmain{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutme{
+    width: 100%;
+}
+.about-me-content-dec{
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
         .skill-context{
         
             display: flex;
@@ -467,6 +484,18 @@ width: 400px;
         display : flex;
         justify-content: center;
         flex-direction: column;
+        }
+        .course {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 100%;
+            overflow: hidden;
+            width: 100%;
+            height: 250px;
         }
         }
         
