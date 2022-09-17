@@ -8,13 +8,7 @@ html {
 }
 
 
-.main{
 
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 100%;
-}
 
 body{
 width: 100%;
@@ -132,7 +126,7 @@ justify-content: flex-end;
     .content{
 
         /* align-items: center; */
-        width: 70%;
+        width:70%;
 margin-top: 50px;
         height: 80vh;
         padding: 20px;
@@ -177,6 +171,7 @@ align-items: center;
 
 
 h1{
+    
     margin-right: -65px !important;
     font-family: inherit;
     font-size: 50px;
@@ -402,6 +397,31 @@ flex-direction: column;
 .top{
     visibility: hidden;
 }
+.content{
+
+    width: 100%;
+margin-top: 0px !important;
+    padding: 0px !important;
+
+    
+}
+.lower{
+    
+    height: 60vh;
+    
+}
+
+.h-one{
+    margin-right: 0px !important;
+margin-top: 12px !important;
+font-weight: 400px;
+text-align: center;
+
+}
+h3{
+    margin-right: 0px;
+}
+
 .secmain{
     display: flex;
     justify-content: center;
@@ -411,9 +431,7 @@ flex-direction: column;
 .aboutme{
     width: 100%;
 }
-.about-bg{
-    height: 0px;
-}
+
 .about-me-content-dec{
     width: 100%;
     color: white;
@@ -423,7 +441,9 @@ flex-direction: column;
 .pic{
     visibility: hidden;
 width: 0px;}
-.aboutmepic{visibility: hidden;}
+.aboutmepic{
+    visibility: hidden;
+}
         .skill-context{
         
             display: flex;
@@ -432,6 +452,11 @@ width: 0px;}
             flex-direction: column;
             right: 0px;
 padding: 10px;
+        }
+
+        .secmain {
+            height: 50vh;
+            
         }
         .progress-container{
             width: 0% !important;
@@ -482,6 +507,11 @@ width: 400px;
         display : flex;
         justify-content: center;
         flex-direction: column;
+        margin: 0px;
+        margin-bottom: 10px;margin-top: 10px;
+        }
+        h1{
+            margin: 0px !important;
         }
         .intermediate{
 
@@ -491,6 +521,8 @@ width: 400px;
         display : flex;
         justify-content: center;
         flex-direction: column;
+        margin: 0px;
+
         }
         .course {
             background-color: #fff;
