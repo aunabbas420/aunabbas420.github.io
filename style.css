@@ -420,6 +420,7 @@ flex-direction: column;
 .pic{
     visibility: hidden;
 width: 0px;}
+.aboutmepic{visibility: hidden;}
         .skill-context{
         
             display: flex;
