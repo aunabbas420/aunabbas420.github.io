@@ -523,6 +523,7 @@ text-align: center;
     column-gap: 2rem;
     align-items: center;
     text-align: initial;
+    
   }
   .work__container {
     grid-template-columns: repeat(3, 1fr);
@@ -556,4 +557,8 @@ text-align: center;
   background-color: #000000;
   padding: 20px;
   margin: 20px 0;
+}
+.skills__subtitle,.skills__text{
+  text-align: center;
+  text-overflow: ellipsis;
 }
